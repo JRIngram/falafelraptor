@@ -62,13 +62,14 @@
             currentAnswer = null;
 
             function loadFact() {
-                random = Math.floor((Math.random() * facts.length));
-                currentFact = facts[random];
+                currentfactPosition = Math.floor((Math.random() * facts.length));
+                currentFact = facts[currentfactPosition];
 
                 div = document.getElementById('fact-container');
                 div.innerHTML = currentFact.fact;
 
                 currentAnswer = currentFact.answer;
+                facts.splice(currentfactPosition, 1);
             }
         </script>
     </head>
