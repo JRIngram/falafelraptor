@@ -1,0 +1,58 @@
+facts =
+[
+  {
+    "fact":"The name means 'Swift Thief'",
+    "answer":"Velociraptor",
+    "source":"https://www.livescience.com/23922-velociraptor-facts.html"
+  },
+  {
+    "fact":"They are/were usually roughly the size of a small turkey",
+    "answer":"Velociraptor",
+    "source":"https://www.livescience.com/23922-velociraptor-facts.html"
+  },
+  {
+    "fact":"The largest _____ is around 6.8 feet",
+    "answer":"Velociraptor",
+    "source":"https://www.livescience.com/23922-velociraptor-facts.html"
+  },
+  {
+    "fact":"They are/were usually found in Asia",
+    "answer":"Velociraptor",
+    "source":"https://en.wikibooks.org/wiki/Wikijunior:Dinosaurs/Velociraptor"
+  },
+  {
+    "fact":"They were highly misrepresented in Jurrasic Park",
+    "answer":"Velociraptor",
+    "source":"https://en.wikibooks.org/wiki/Wikijunior:Dinosaurs/Velociraptor"
+  },
+  {
+    "fact":"The origin of the name (i.e. who named it) is unknown.",
+    "answer":"Falafel",
+    "source":"https://www.uselessdaily.com/food/falafel-trivia-30-interesting-facts-you-didnt-know-about-it/#.WgdZ_mTEfIU"
+  },
+  {
+    "fact":"It has a grown to be a popular street food in Egypt",
+    "answer":"Falafel",
+    "source":"https://www.uselessdaily.com/food/falafel-trivia-30-interesting-facts-you-didnt-know-about-it/#.WgdZ_mTEfIU"
+  },
+  {
+    "fact":"Due to popularity McDonalds released a \"Mc________\"",
+    "answer":"Falafel",
+    "source":"https://www.uselessdaily.com/food/falafel-trivia-30-interesting-facts-you-didnt-know-about-it/#.WgdZ_mTEfIU"
+  },
+  {
+    "fact":"The largest in the world weighed 74.75kg",
+    "answer":"Falafel",
+    "source":"https://www.uselessdaily.com/food/falafel-trivia-30-interesting-facts-you-didnt-know-about-it/#.WgdZ_mTEfIU"
+  },
+  {
+    "fact":"_______ contains around 325 calories for 100gm. It’s made out of 35% water, 30% carbohydrates, 15 percent protein and some 20% of the rest – which may include some fat and also vitamins and minerals.",
+    "answer":"Falafel",
+    "source":"http://humus101.com/EN/2007/05/31/falafel-fact-sheet/"
+  },
+  {
+    "fact":"At times it’s shaped like a ball, other times it’s shaped as disc.",
+    "answer":"Falafel",
+    "source":"https://www.ynetnews.com/articles/0,7340,L-3421119,00.html"
+  }
+];
