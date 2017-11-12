@@ -71,6 +71,8 @@
                 currentAnswer = currentFact.answer;
                 facts.splice(currentfactPosition, 1);
             }
+
+            window.onload = loadFact;
         </script>
     </head>
     <body>
@@ -82,7 +84,7 @@
                     <div id="fact-container" style="margin-bottom: 60px;">
                         <p>Fact goes here</p>
                     </div>
-                    <button type="submit" class="vote-button" style="margin-right: 30px;"><img src="images/falafel.jpg" alt="velociraptor" style="width: 100px; height: 100px;"></button>
+                    <button type="submit" class="vote-button" style="margin-right: 30px;"><img src="images/falafel.jpg" alt="falafel" style="width: 100px; height: 100px;"></button>
                     OR
                     <button type="submit" class="vote-button" style="margin-left: 30px;"><img src="images/velociraptor.jpg" alt="velociraptor" style="width: 100px; height: 100px;"></button>
                 </div>
