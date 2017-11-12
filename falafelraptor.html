@@ -2,87 +2,9 @@
 <html>
     <head>
         <title>Falafelraptor</title>
-        <style>
-            body {
-                background-color: #cccccc;
-                font-family: 'Comic Sans MS';
-            }
-
-            .centre-container {
-                width: 700px;
-                height: 500px;
-                margin: 150px auto;
-                background-color: #ffffff;
-                border: 1px solid #aaaaaa;
-                -moz-box-shadow: 0 0 20px -7px #000000;
-                -webkit-box-shadow: 0 0 20px -7px #000000;
-                box-shadow: 0 0 20px -7px #000000;
-                background: #51b15e; /* Old Browsers */
-                background: -webkit-linear-gradient(left,#51b15e,#9a724b); /*Safari 5.1-6*/
-                background: -o-linear-gradient(left,#51b15e,#9a724b); /*Opera 11.1-12*/
-                background: -moz-linear-gradient(left,#51b15e,#9a724b); /*Fx 3.6-15*/
-                background: linear-gradient(to right, #51b15e, #9a724b); /*Standard*/
-            }
-
-            .page-margin-inner {
-                margin: 20px;
-                text-align: center;
-                vertical-align: middle;
-            }
-
-            .vote-button {
-                width: 100px;
-                height: 100px;
-                padding: 0px;
-                margin: 0px;
-                border-radius: 5px;
-            }
-
-            .score {
-                width: 100px;
-                height: 100px;
-                border-radius: 50px;
-                background-color: #dd1c1c;
-                position: fixed;
-                top: 40px;
-                right: 50px;
-                -moz-box-shadow: 5px 5px 30px -3px #000000;
-                -webkit-box-shadow: 5px 5px 30px -3px #000000;
-                box-shadow: 5px 5px 30px -3px #000000;
-                text-align: center;
-                font-size: 25pt;
-            }
-
-            #score {
-                margin-top: 25px;
-            }
-        </style>
+        <link rel="stylesheet" type="text/css" href="cool-style.css">
         <script type="text/javascript" src="facts.json"></script>
-        <script type="text/javascript">
-            currentAnswer = null;
-            score = 0;
-
-            function loadFact() {
-                currentfactPosition = Math.floor((Math.random() * facts.length));
-                currentFact = facts[currentfactPosition];
-
-                div = document.getElementById('fact-container');
-                div.innerHTML = currentFact.fact;
-
-                currentAnswer = currentFact.answer;
-                facts.splice(currentfactPosition, 1);
-            }
-
-            function submitAnswer(userAnswer) {
-                if(userAnswer.toLowerCase() == currentAnswer.toLowerCase()) {
-                    score++;
-                    document.getElementById('score').innerHTML = score;
-                }
-                loadFact();
-            }
-
-            window.onload = loadFact;
-        </script>
+        <script type="text/javascript" src="quiz-master.js"></script>
     </head>
     <body>
         <div class="centre-container">
